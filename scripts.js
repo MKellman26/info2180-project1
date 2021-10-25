@@ -18,7 +18,7 @@ function validate(e){
     let valid = true;
 
     if (te.test(String(emailField[0].value))){
-        msg.innerHTML = "Thank you! Your email address " + emailField.value + " has been added to our mailing list!";
+        msg.innerHTML = "Thank you! Your email address " + emailField[0].value + " has been added to our mailing list!";
     } else {
         msg.innerHTML = "Please enter a valid email address.";
     }
